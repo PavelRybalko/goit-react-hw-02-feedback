@@ -30,7 +30,7 @@ export default function Statistics({
           </li>
         </ul>
       )}
-      {total == 0 && <Notification message="No feedback given" />}
+      {total === 0 && <Notification message="No feedback given" />}
     </>
   );
 }
